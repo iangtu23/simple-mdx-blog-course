@@ -22,7 +22,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
-    `gatsy-transformer-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
