@@ -1,4 +1,4 @@
-export default {
+const Theme = {
   fonts: {
     main: "Muli, sans-serif",
     code: "Roboto Mono, monospace",
@@ -10,7 +10,7 @@ export default {
     dark2: "hsl(227,2%,26%)",
     dark3: "hsl(227,2%,64%)",
     light1: "hsl(0,0%,97%)",
-    light1: "hsl(0,0%,99%)",
+    light2: "hsl(0,0%,99%)",
   },
   breakpoints: {
     mobile: "only screen and (max-width: 50rem)",
@@ -33,3 +33,5 @@ export default {
     shadow1: "0px 5px 20px rgba(30, 30, 31, 0.05)",
   },
 }
+
+export default Theme
